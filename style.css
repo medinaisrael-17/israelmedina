@@ -1,0 +1,77 @@
+#container {
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* left hand portion */
+#me {
+    width: 17%;
+    margin-right: 50px;
+    height: 25%;
+}
+
+#meImg {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+#navigation{
+    list-style-type: none;
+    font-size: 30px;
+    padding-inline-start: 0px;
+}
+
+/* Right hand portion */
+
+#content {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.caption {
+    width: 100%;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.subTitle {
+    font-size: 30px;
+}
+
+
+/* index.html */
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+}
+
+#reactImg {
+    width: 50px;
+    height: 50px;
+}
+
+.item {
+    height: 302px;
+    margin: auto;
+    margin-left: 7px;
+    margin-bottom: 30px;
+    border: 1px solid;
+    box-shadow: 2px 5px 9px #888888;
+}
+
+/* about.html */
+
+
+/* connect.html */
