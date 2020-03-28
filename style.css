@@ -1,0 +1,55 @@
+/* Generic */
+
+@font-face {
+    font-family: 'komika_axisregular';
+    src: url('komikax_-webfont.woff2') format('woff2'),
+         url('komikax_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    padding: 0px !important;
+    height: 900px;
+    background-image: url("./images/kirbyBackLand.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#overlay {
+    background-color: black;
+    opacity: .1;
+    height: 100%;
+    width: 100%;
+}
+
+#hero-content {
+    transform: rotate(-5deg);
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    top: 38%;
+    left: 24%;
+}
+
+#hero-content h1  {
+    font-size: 90px;
+    font-family: 'komika_axisregular'
+}
+#hero-content p {
+    font-size: 20px;
+    font-family: 'komika_axisregular'
+}
+
+#text-box {
+    width: 50%;
+    height: 25%;
+    position: absolute;
+    top: 38%;
+    left: 24%;
+    background-color: #d8d4d4;
+}
