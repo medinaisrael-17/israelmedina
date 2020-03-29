@@ -39,3 +39,7 @@ const scene3 = new ScrollMagic.Scene({
 })
     .setTween(navTween)
     .addTo(controller)
+
+const controller2 = new ScrollMagic.Controller();
+
+const thorTween = new TweenMax.to()

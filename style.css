@@ -82,7 +82,7 @@ body {
 /* Container */
 
 .container {
-    width: 1000px;
+    width: 960px;
 }
 
 .container h1{
@@ -105,6 +105,7 @@ body {
 /* Images */
 
 .floating-image {
+    background-color: white;
     padding: 10px;
     box-shadow: 5px 10px;
 }
@@ -120,7 +121,7 @@ body {
     position: absolute;
     height: 30em;
     right: 3%;
-    top: 50%;
+    top: 40em;
 }
 
 #thor {
@@ -129,5 +130,23 @@ body {
     position: absolute;
     height: 30em;
     left: 3%;
-    top: 25%;
+    top: 20em;
+}
+
+#captain-america {
+    border: 5px solid black;
+    transform: rotate(-5deg);
+    position: absolute;
+    height: 30em;
+    left: 3%;
+    top: 60em;
+}
+
+#incredible-hulk {
+    border: 5px solid black;
+    transform: rotate(5deg);
+    position: absolute;
+    height: 30em;
+    right: 5%;
+    top: 80em;
 }
