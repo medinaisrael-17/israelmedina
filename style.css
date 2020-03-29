@@ -23,7 +23,7 @@ body {
     /* for vingette */
     /* overflow: hidden; */
     /* /for vingette */
-    height: 800px;
+    height: 60em;
     background-image: url("./images/kirbyBackLand.png");
     background-position: center;
     background-size: cover;
@@ -112,7 +112,7 @@ body {
 #navigation {
     margin-bottom: 0px !important;
     padding: 0;
-    height: 1200px;
+    height: 1300px;
     background-image: url("./images/starBackgLand.png");
     background-position: center;
     background-size: 70%;
@@ -132,20 +132,20 @@ body {
     height: 35%;
     transform: rotate(90deg);
     top: 47%;
-    left: -13%;
+    left: -41%;
 }
 
 #thanos {
     position: absolute;
     height: 60%;
     top: 37%;
-    left: 72%;
+    right: -35%;
 }
 
 #nav {
     position: absolute;
-    top: 45%;
-    left: 40%;
+    top: 109%;
+    left: 42%;
 }
 
 .option {
