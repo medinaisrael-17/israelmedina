@@ -1,5 +1,5 @@
 $("#scrollArrow").on("click", function () {
-    $('html, body').animate({
+    $('html, body').stop().animate({
         scrollTop: $("#nav").offset().top
     }, 4000);
 });
