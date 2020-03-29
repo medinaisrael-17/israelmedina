@@ -75,6 +75,7 @@ body {
     background-color: rgb(255, 255, 255);
     border: 7px solid black;
 }
+
 #text-box-shadow {
     transform: skew(-9deg, -7deg);
     z-index: 1;
@@ -86,10 +87,30 @@ body {
     background-color: black;
 }
 
+#scrollArrow {
+    font-size: 25px;
+    height: 50px;
+    position: absolute;
+    bottom: 28%;
+    left: 47%;
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 50px;
+    text-align: center;
+    animation: bounce 1.5s infinite; 
+}
+
+@keyframes bounce {
+    0% { padding-top: 0px; }
+    50% { padding-top: 5px; }
+    100% { padding-top: 0px;}
+}
+
 
 /* Navigation Box */
 
 #navigation {
+    margin-bottom: 0px !important;
     padding: 0;
     height: 1200px;
     background-image: url("./images/starBackgLand.png");
@@ -119,4 +140,27 @@ body {
     height: 60%;
     top: 37%;
     right: 0;
+}
+
+#nav {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.option {
+    height: 150px;
+    transform: skew(-9deg, -7deg);
+    background-color: yellow;
+    text-align: center;
+    margin-bottom: 70px;
+    padding: 10px;
+    padding-top: 40px;
+    border: 7px solid black;
+    box-shadow: 5px 10px white;
+}
+
+#nav a {
+    font-family: 'komika_axisregular';
+    color: black;
 }
