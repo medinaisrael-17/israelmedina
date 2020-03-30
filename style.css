@@ -120,7 +120,7 @@ body {
     transform: rotate(5deg);
     position: absolute;
     height: 30em;
-    right: 3%;
+    right: -17%;
     top: 40em;
 }
 
@@ -138,7 +138,7 @@ body {
     transform: rotate(-5deg);
     position: absolute;
     height: 30em;
-    left: 3%;
+    left: -14%;
     top: 60em;
 }
 
@@ -147,7 +147,7 @@ body {
     transform: rotate(5deg);
     position: absolute;
     height: 30em;
-    right: 5%;
+    right: -20%;
     top: 80em;
 }
 
@@ -191,6 +191,14 @@ body {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+#img-div a {
+    margin: 0 auto;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    min-width: 6em;
+    height: 6em; 
 }
 
 .skill-img {
