@@ -150,3 +150,63 @@ body {
     right: 5%;
     top: 80em;
 }
+
+
+/* Jumbotron */
+
+#skill-jumbotron {
+    margin-bottom: 0;
+    margin-top: 10em;
+    height: 700px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(110,0,195,1) 0%, rgba(210,50,255,1) 100%);
+    border-top: 3px solid #0e001c;
+}
+
+#spider-man {
+    transform: scaleX(-1);
+    z-index: 2;
+    height: 75%;
+    position: absolute;
+    left: -5%;
+    top: 0;
+}
+
+#spider-man-shadow {
+    transform: scaleX(-1);
+    z-index: 1;
+    height: 75%;
+    position: absolute;
+    left: -4.5%;
+    top: 0;
+}
+
+#skills-div {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#img-div {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-img {
+    margin: 0 auto;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    min-width: 6em;
+    height: 6em;
+}
+
+/* Footer */
+
+footer {
+    font-size: 10px;
+    height: 18px;
+    background-color: black;
+    text-align: center;
+    color: grey;
+}
