@@ -11,6 +11,7 @@
 
 body {
     position: relative;
+    overflow-y: hidden;
 }
 
 /* Navbar */
@@ -80,12 +81,27 @@ body {
 }
 
 /* FLIPBOOK */
-#flipbook .hard {
-    background-color: #ccc;
+#flipbook-viewport {
+    position: relative;
 }
+
+.box {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+#flipbook {
+    margin: 0 auto;
+}
+
 
 #flipbook .page {
     background-color: white;
+}
+
+#flipbook .hard {
+    background-color: grey;
 }
 
 
