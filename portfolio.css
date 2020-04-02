@@ -111,6 +111,7 @@ body {
 }
 
 /* Comic Book */
+
 .comic {
     display: flex;
     flex-wrap: wrap;
@@ -223,15 +224,14 @@ body {
     flex-basis: 200px;
 }
 
-/* background colours */
+/* background colours
 
 .panel:nth-child(4n+1) {
-    background-image:url("./images/earth.jpg");
-    background-size: 100%;
+   
 }
 
 .panel:nth-child(4n+2) {
-    background-image: radial-gradient(circle, lightblue, deepskyblue);
+    
 }
 
 .panel:nth-child(4n+3) {
@@ -240,6 +240,49 @@ body {
 
 .panel:nth-child(4n+4) {
     background-image: radial-gradient(circle, lightcoral, tomato);
+} */
+
+
+#page1 .panel {
+    margin-bottom: 5rem;
+}
+
+#page1 .panel:nth-child(1) {
+    background-image:url("./images/earth.jpg");
+    background-size: 100%;
+}
+
+#page1 .panel:nth-child(2) {
+    background-image: url("https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1357&q=80");
+    background-size: 100%;
+}
+
+#page2 .panel:nth-child(1) {
+    background-image: url("./images/thisisablog.jpg");
+    background-size: 100%;
+}
+
+#page3 .panel:nth-child(1) {
+    background-image: url("./images/trailfolk.jpg");
+    background-size: 100%;
+}
+
+#page4 .panel:nth-child(1) {
+    background-image: url("./images/huluFlix.jpg");
+    background-size: 100%;
+}
+
+.page .panel:nth-child(2) {
+    background: radial-gradient(circle, rgba(110,0,195,1) 0%, rgba(210,50,255,1) 100%);
+}
+
+.page .panel:nth-child(3) {
+    background: radial-gradient(circle, rgba(38,166,255,1) 0%, rgba(88,255,13,1) 100%);
+}
+
+.page .panel img {
+    height: 100%;
+    width: 100%;
 }
 
 /* Footer */
