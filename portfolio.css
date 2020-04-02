@@ -301,6 +301,27 @@ body {
     margin-bottom: 5rem;
 }
 
+#page8 .panel:nth-child(1) {
+    background-image: url("./images/gigbook.jpg");
+}
+
+#page9 .panel:nth-child(1) {
+    background-image: url("./images/pwa.png");
+}
+
+#page9 .panel:nth-child(2) {
+    background-image: url("https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+}
+
+#page9 .panel {
+    margin-bottom: 5rem;
+}
+
+#page10 .panel:nth-child(1) {
+    background-image: url("./images/QuickMerch.PNG");
+}
+
 .page .panel:nth-child(2) {
     background: radial-gradient(circle, rgba(110,0,195,1) 0%, rgba(210,50,255,1) 100%);
 }
