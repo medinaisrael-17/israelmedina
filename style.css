@@ -95,12 +95,19 @@ body {
 }
 
 #me {
+    background-image: url("./images/comic-background.png");
+    background-size: 125%;
     margin-right: 20px;
     float: left;
     border: 5px solid black;
     border-radius: 50%;
     height: 25em;
 }
+
+#me:hover {
+    content: url("./images/me.jpg")
+}
+
 
 /* Images */
 
@@ -124,6 +131,10 @@ body {
     top: 40em;
 }
 
+#iron-man:hover {
+    content: url("./images/rdj.jpg");
+}
+
 #thor {
     border: 5px solid black;
     transform: rotate(-5deg);
@@ -131,6 +142,10 @@ body {
     height: 30em;
     left: -14%;
     top: 20em;
+}
+
+#thor:hover {
+    content: url("./images/ch.jpg");
 }
 
 #captain-america {
@@ -142,6 +157,10 @@ body {
     top: 60em;
 }
 
+#captain-america:hover {
+    content: url("./images/ce.jpg");
+}
+
 #incredible-hulk {
     border: 5px solid black;
     transform: rotate(5deg);
@@ -149,6 +168,10 @@ body {
     height: 30em;
     right: -20%;
     top: 80em;
+}
+
+#incredible-hulk:hover {
+    content: url("./images/mr-alt.jpg");
 }
 
 
