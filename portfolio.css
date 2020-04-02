@@ -242,6 +242,9 @@ body {
     background-image: radial-gradient(circle, lightcoral, tomato);
 } */
 
+.page .panel {
+    background-size: 100%;
+}
 
 #page1 .panel {
     margin-bottom: 5rem;
@@ -249,7 +252,6 @@ body {
 
 #page1 .panel:nth-child(1) {
     background-image:url("./images/earth.jpg");
-    background-size: 100%;
 }
 
 #page1 .panel:nth-child(2) {
@@ -259,17 +261,44 @@ body {
 
 #page2 .panel:nth-child(1) {
     background-image: url("./images/thisisablog.jpg");
-    background-size: 100%;
 }
 
 #page3 .panel:nth-child(1) {
     background-image: url("./images/trailfolk.jpg");
-    background-size: 100%;
 }
 
 #page4 .panel:nth-child(1) {
     background-image: url("./images/huluFlix.jpg");
+}
+
+#page5 .panel:nth-child(1) {
+    background-image: url("https://rollout.io/blog/wp-content/uploads/sites/2/2018/06/Database-Migration-Image-with-Servers-and-Tech-Icons.jpg");
+}
+
+#page5 .panel:nth-child(2) {
+    background-image: url("https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
     background-size: 100%;
+}
+
+#page5 .panel {
+    margin-bottom: 5rem;
+}
+
+#page6 .panel:nth-child(1) {
+    background-image: url("./images/straytx.jpg");
+}
+
+#page7 .panel:nth-child(1) {
+    background-image: url("https://images.unsplash.com/photo-1560523371-b28d9e070c21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+}
+
+#page7 .panel:nth-child(2) {
+    background-image: url("https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg");
+    background-size: cover;
+}
+
+#page7 .panel {
+    margin-bottom: 5rem;
 }
 
 .page .panel:nth-child(2) {
