@@ -338,8 +338,20 @@ footer {
 
 @media only screen and (max-width: 1440px) {
   .box {
-    left: 18%;
+    left: 25%;
   }
+  #page1 .panel {
+    margin-bottom: 1rem;
+    }
+    #page5 .panel {
+        margin-bottom: 1rem;
+    }
+    #page7 .panel {
+        margin-bottom: 1rem;
+    }
+    #page9 .panel {
+        margin-bottom: 1rem;
+    }
 }
 
 @media only screen and (max-width: 1024px)  {
