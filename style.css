@@ -235,9 +235,130 @@ body {
 /* Footer */
 
 footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
     font-size: 10px;
     height: 18px;
     background-color: black;
     text-align: center;
     color: grey;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1440px) {
+    .container {
+        width: 45em;
+    }
+    .floating-image {
+        height: 20em !important;
+    }
+    #me {
+        height: 20em;
+    }
+    #skill-jumbotron {
+        height: 730px;
+    }
+    #skills-div {
+        width: 39%;
+    }
+}
+
+@media only screen and (max-width: 1024px)  {
+    .container {
+        width: 35em;
+    }
+    .floating-image {
+        height: 15em !important;
+    }
+    #me {
+        height: 15em;
+    }
+    #spider-man {
+        height: 50%;
+    }
+    #spider-man-shadow {
+        height: 50%;
+    }
+    #skill-jumbotron {
+        height: 730px;
+    }
+    #skills-div {
+        width: 56%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #thor {
+        display: none;
+    }
+    #iron-man {
+        display: none;
+    }
+    #captain-america {
+        display: none;
+    }
+    #incredible-hulk {
+        display: none;
+    }
+    #spider-man {
+        display: none;
+    }
+    #spider-man-shadow {
+        display: none;
+    }
+    #skills-div {
+        width: 100%;
+    }
+    .skill-img {
+        height: 6.5em;
+        width: 6.5em;
+    }
+    #img-div a {
+        margin-right: 6%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #myNav {
+        height: 15em;
+        position: static;
+    }
+    ul {
+        text-align: right;
+    }
+    li {
+        width: 100%;
+    }
+    #text-box {
+        width: 10em;
+        top: 3em;
+    }
+    #text-box-shadow {
+        left: .5em;
+        width: 10em;
+        top: 3.5em;
+    }
+    #name a {
+        top: 4em;
+        left: 1em;
+    }
+    #name a h1 {
+        font-size: 2em;
+    }
+    .container {
+        width: 18em;
+    }
+    #me {
+        height: 16em;
+        margin-bottom: 20px;
+    }
+    #img-div a {
+        margin-right: 1%;
+    }
+    footer {
+        font-size: 8px;
+    }
+    
 }
