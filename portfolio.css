@@ -333,3 +333,81 @@ footer {
     text-align: center;
     color: grey;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 1440px) {
+  .box {
+    left: 18%;
+  }
+}
+
+@media only screen and (max-width: 1024px)  {
+    .nav a {
+        font-size: 30px;
+    }
+    .box {
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav li:first-of-type {
+        display: none;
+    }
+    #page1 .panel {
+        margin-bottom: 1rem;
+    }
+    #page5 .panel {
+        margin-bottom: 1rem;
+    }
+    #page7 .panel {
+        margin-bottom: 1rem;
+    }
+    #page9 .panel {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #myNav {
+        height: 15em;
+        position: static;
+    }
+    ul {
+        text-align: right;
+    }
+    li {
+        width: 100%;
+    }
+    #text-box {
+        width: 10em;
+        top: 3em;
+    }
+    #text-box-shadow {
+        left: .5em;
+        width: 10em;
+        top: 3.5em;
+    }
+    #name a {
+        top: 4em;
+        left: 1em;
+    }
+    #name a h1 {
+        font-size: 2em;
+    }
+    .container {
+        width: 18em;
+    }
+    #me {
+        height: 16em;
+        margin-bottom: 20px;
+    }
+    #img-div a {
+        margin-right: 1%;
+    }
+    footer {
+        font-size: 8px;
+    }
+    
+}
