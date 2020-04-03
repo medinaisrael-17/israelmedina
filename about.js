@@ -18,7 +18,6 @@ const scene1 = new ScrollMagic.Scene({
     reverse: false
 })
     .setTween(steveTween)
-    .addIndicators("Steve")
     .addTo(controller);
 
 const bruceTween = new TweenMax.to("#incredible-hulk", 1, {
@@ -31,7 +30,6 @@ const scene2 = new ScrollMagic.Scene({
     reverse: false
 })
     .setTween(bruceTween)
-    .addIndicators("Bruce")
     .addTo(controller);
 
 // const scene1 = new ScrollMagic.Scene({
