@@ -1,8 +1,8 @@
 function loadApp() {
     if (window.innerWidth < 450) {
         $("#flipbook").turn({
-            width: 335,
-            height: 218,
+            width: 600,
+            height: 389,
             gradients: true,
             autoCenter: true
         });
@@ -18,7 +18,7 @@ function loadApp() {
         });
         return;
     }
-   
+
     $("#flipbook").turn({
         width: 922,
         height: 600,

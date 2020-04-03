@@ -421,5 +421,7 @@ footer {
     footer {
         font-size: 8px;
     }
-    
+    .box {
+        left: -7em;
+    }
 }
