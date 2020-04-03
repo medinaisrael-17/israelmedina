@@ -9,6 +9,10 @@
 
 }
 
+#mobile-comic {
+    display: none;
+}
+
 body {
     position: relative;
     overflow-y: hidden;
@@ -385,6 +389,7 @@ footer {
     #myNav {
         height: 15em;
         position: static;
+        margin-bottom: 1em;
     }
     ul {
         text-align: right;
@@ -408,20 +413,154 @@ footer {
     #name a h1 {
         font-size: 2em;
     }
-    .container {
-        width: 18em;
+    body {
+        overflow-y: scroll;
+        background-image: url("./images/page-background.png");
+        background-size: 100%;
     }
-    #me {
-        height: 16em;
-        margin-bottom: 20px;
+
+    #flipbook-viewport {
+        display: none;
     }
-    #img-div a {
-        margin-right: 1%;
+
+    /* mobile comic */
+
+    #embed, #cover-div {
+        padding: 10px;
     }
+
+    #cover-div {
+        background-color: white;
+        border: 5px solid black;
+    }
+
+    #cover {
+        height: 29em;
+        border: 5px solid black;
+    }
+
+
+    #panel-1, #panel-2, #panel-3, 
+    #panel-6, #panel-9, #panel-12, 
+    #panel-13, #panel-14, #panel-17, 
+    #panel-18, #panel-19, #panel-22,
+    #panel-23, #panel-24 {
+        flex-basis: 400px ;
+    } 
+
+    #panel-4, #panel-5, #panel-7,
+    #panel-8, #panel-10, #panel-11,
+    #panel-15, #panel-16, #panel-20,
+    #panel-21, #panel-25, #panel-26 {
+        flex-basis: 100px ;
+        background-image: url("./images/comic-background.png");
+        background-size: 35em;
+    }
+
+    .panel img {
+        height: 100%;
+    }
+    
+    #panel-1 {
+        background-image:url("./images/earth.jpg");
+        background-size: cover;
+    }
+    
+    #panel-2 {
+        background-image: url("https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1357&q=80");
+        background-size: cover;
+    }
+    
+    #panel-3 {
+        background-image: url("./images/thisisablog.jpg");
+        background-size: cover;
+    }
+    
+    #panel-6 {
+        background-image: url("./images/trailfolk.jpg");
+        background-size: cover;
+    }
+    
+    #panel-9 {
+        background-image: url("./images/huluFlix.jpg");
+        background-size: cover;
+    }
+    
+    #panel-12 {
+        background-image: url("https://rollout.io/blog/wp-content/uploads/sites/2/2018/06/Database-Migration-Image-with-Servers-and-Tech-Icons.jpg");
+        background-size: cover;
+    }
+    
+    #panel-13 {
+        background-image: url("https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+        background-size: cover;
+    }
+    
+    #page5 .panel {
+        margin-bottom: 5rem;
+    }
+    
+    #panel-14 {
+        background-image: url("./images/straytx.jpg");
+        background-size: cover;
+    }
+    
+    #panel-17 {
+        background-image: url("https://images.unsplash.com/photo-1560523371-b28d9e070c21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+        background-size: cover;
+    }
+    
+    #panel-18 {
+        background-image: url("https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg");
+        background-size: cover;
+        background-size: cover;
+    }
+    
+    #page7 .panel {
+        margin-bottom: 5rem;
+    }
+    
+    #panel-19 {
+        background-image: url("./images/gigbook.jpg");
+        background-size: cover;
+    }
+    
+    #panel-22 {
+        background-image: url("./images/pwa.png");
+        background-size: cover;
+    }
+    
+    #panel-23 {
+        background-image: url("https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+        background-size: cover;
+        background-size: cover;
+    }
+    
+    #page9 .panel {
+        margin-bottom: 5rem;
+    }
+    
+    #panel-24 {
+        background-image: url("./images/QuickMerch.PNG");
+        background-size: cover;
+    }
+    
+    .page .panel img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #embed2 img {
+        height: 31em;
+    }
+
+    #mobile-comic {
+        display: block;
+        margin-bottom: 5em;
+    }
+    
     footer {
         font-size: 8px;
     }
-    .box {
-        left: -7em;
-    }
+    
 }
