@@ -34,3 +34,9 @@ yepnope({
     both: ["./portfolio.css"],
     complete: loadApp
 })
+
+$("#scrollArrow").on("click", function () {
+    $('html, body').stop().animate({
+        scrollTop: $("#myNav").offset().top
+    }, 4000);
+});

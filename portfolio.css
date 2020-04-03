@@ -425,7 +425,7 @@ footer {
 
     /* mobile comic */
 
-    #embed, #cover-div {
+    #embed, #embed2,  #cover-div {
         padding: 10px;
     }
 
@@ -550,13 +550,33 @@ footer {
         width: 100%;
     }
 
-    #embed2 img {
-        height: 31em;
-    }
-
     #mobile-comic {
         display: block;
         margin-bottom: 5em;
+    }
+
+    #scrollArrow {
+        margin: 0 auto;
+        margin-top: 2em;
+        color: black;
+        cursor: pointer;
+        font-size: 25px;
+        height: 3em;
+        border: 5px solid black;
+        border-radius: 50%;
+        width: 3em;
+        text-align: center;
+        animation: bounce 1.25s infinite; 
+    }
+
+    i {
+        font-size: 50px;
+    }
+    
+    @keyframes bounce {
+        0% { padding-top: -3px; }
+        50% { padding-top: 5px; }
+        100% { padding-top: -3px;}
     }
     
     footer {
