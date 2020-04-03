@@ -9,6 +9,11 @@
 
 }
 
+
+#scrollArrow {
+    display: none;
+}
+
 body {
     position: relative;
 }
@@ -356,6 +361,31 @@ footer {
     }
     #img-div a {
         margin-right: 1%;
+    }
+
+    #scrollArrow {
+        display: block;
+        margin: 0 auto;
+        margin-top: 2em;
+        color: black;
+        cursor: pointer;
+        font-size: 25px;
+        height: 3em;
+        border: 5px solid black;
+        border-radius: 50%;
+        width: 3em;
+        text-align: center;
+        animation: bounce 1.25s infinite; 
+    }
+
+    i {
+        font-size: 50px;
+    }
+    
+    @keyframes bounce {
+        0% { padding-top: -3px; }
+        50% { padding-top: 5px; }
+        100% { padding-top: -3px;}
     }
     footer {
         font-size: 8px;

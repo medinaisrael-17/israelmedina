@@ -32,11 +32,8 @@ const scene2 = new ScrollMagic.Scene({
     .setTween(bruceTween)
     .addTo(controller);
 
-// const scene1 = new ScrollMagic.Scene({
-//     triggerElement: ".container h1",
-//     duration: 10
-// })
-//     .setTween(tonyTween)
-//     .addIndicators("Tony")
-//     .addTo(controller)
-
+$("#scrollArrow").on("click", function () {
+    $('html, body').stop().animate({
+        scrollTop: $("#myNav").offset().top
+    }, 4000);
+});

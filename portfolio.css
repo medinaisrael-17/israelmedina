@@ -13,6 +13,10 @@
     display: none;
 }
 
+#scrollArrow {
+    display: none;
+}
+
 body {
     position: relative;
     overflow-y: hidden;
@@ -556,6 +560,7 @@ footer {
     }
 
     #scrollArrow {
+        display: block;
         margin: 0 auto;
         margin-top: 2em;
         color: black;
