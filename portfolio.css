@@ -92,7 +92,7 @@ body {
     position: absolute;
     top: 25%;
     left: 20%;
-    margin-bottom: 10em;
+    margin-bottom: 10em$;
 }
 
 #flipbook {
@@ -418,7 +418,7 @@ footer {
     }
 
     #cover {
-        height: 26.2em;
+        height: 29rem;
         border: 5px solid black;
     }
 
@@ -567,4 +567,31 @@ footer {
         font-size: 8px;
     }
     
+}
+
+@media only screen and (max-width: 375px) {
+    #cover {
+        height: 26rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #cover {
+        height: 22rem;
+    }
+
+    #text-box {
+        width: 9em;
+        left: -12px;
+    }
+    #text-box-shadow {
+        width: 9em;
+        left: -7px;
+    }
+    #name a h1 {
+        font-size: 1.7em;
+    }
+    #name a {
+        left: 4px;
+    }
 }
