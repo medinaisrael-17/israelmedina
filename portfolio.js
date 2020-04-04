@@ -40,8 +40,8 @@ function loadApp() {
     }
 
     $("#flipbook").turn({
-        width: 1400,
-        height: 900,
+        width: 1100,
+        height: 715,
         gradients: true,
         autoCenter: true
     });

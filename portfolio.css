@@ -129,7 +129,7 @@ body {
     box-shadow: 0 6px 6px -6px #000;
     display: inline-block;
     flex: 1 1;
-    height: 21em;
+    height: 15em;
     margin: 1vmin;
     overflow: hidden;
     position: relative;
@@ -209,12 +209,12 @@ body {
 }
 
 .portfolio-piece .panel:nth-child(1) {
-    flex-basis: 600px;
+    flex-basis: 400px;
     background-size: cover;
 }
 
 .portfolio-piece .panel:nth-child(2), .portfolio-piece .panel:nth-child(3) {
-    flex-basis: 300px;
+    flex-basis: 200px;
 }
 
 
@@ -333,6 +333,13 @@ footer {
     .box {
         left: 5%;
     }
+    .portfolio-piece .panel:nth-child(1) {
+        flex-basis: 400px;
+    }
+    
+    .portfolio-piece .panel:nth-child(2), .portfolio-piece .panel:nth-child(3) {
+        flex-basis: 50px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -350,6 +357,10 @@ footer {
     }
     #page9 .panel {
         margin-bottom: 1rem;
+    }
+
+    .panel {
+        height: 11em;
     }
 }
 
@@ -403,7 +414,7 @@ footer {
     }
 
     #cover {
-        height: 29em;
+        height: 26.2em;
         border: 5px solid black;
     }
 
