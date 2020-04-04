@@ -19,6 +19,26 @@ function loadApp() {
         return;
     }
 
+    if (window.innerWidth < 1030) {
+        $("#flipbook").turn({
+            width: 900,
+            height: 580,
+            gradients: true,
+            autoCenter: true
+        });
+        return;
+    }
+    
+    if (window.innerWidth < 1450) {
+        $("#flipbook").turn({
+            width: 1100,
+            height: 710,
+            gradients: true,
+            autoCenter: true
+        });
+        return;
+    }
+
     $("#flipbook").turn({
         width: 1400,
         height: 900,
