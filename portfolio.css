@@ -60,10 +60,6 @@ body {
     left: 2.5em;
 }
 
-#name h1 {
-    
-}
-
 #text-box {
     transform: skew(-9deg, -7deg);
     z-index: 2;
@@ -96,7 +92,7 @@ body {
 .box {
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 20%;
 }
 
 #flipbook {
@@ -133,7 +129,7 @@ body {
     box-shadow: 0 6px 6px -6px #000;
     display: inline-block;
     flex: 1 1;
-    height: 200px;
+    height: 21em;
     margin: 1vmin;
     overflow: hidden;
     position: relative;
@@ -196,53 +192,31 @@ body {
     width: 0;
 }
 
-.panel:nth-child(1) {
-    flex-basis: 400px;
-}
 
-.panel:nth-child(2) {
-    flex-basis: 200px;
-}
-
-.panel:nth-child(3) {
-    flex-basis: 200px;
-}
-
-.panel:nth-child(4) {
-    flex-basis: 200px;
-}
-
-.panel:nth-child(5) {
-    flex-basis: 200px;
-}
-
-.panel:nth-child(6) {
-    flex-basis: 200px;
-}
-
-.panel:nth-child(7) {
-    flex-basis: 400px;
-}
-
-.panel:nth-child(8) {
-    flex-basis: 200px;
-}
-
-.panel:nth-child(9) {
-    flex-basis: 200px;
-}
 
 /* background colours*/
 
-
+#page
 
 .page .panel {
     background-size: 100%;
 }
 
-#page1 .panel {
-    margin-bottom: 5rem;
+.commentary .panel{
+    background-size: cover !important;
+    margin-bottom: 4rem;
+    flex-basis: 400px;
 }
+
+.portfolio-piece .panel:nth-child(1) {
+    flex-basis: 600px;
+    background-size: cover;
+}
+
+.portfolio-piece .panel:nth-child(2), .portfolio-piece .panel:nth-child(3) {
+    flex-basis: 300px;
+}
+
 
 #page1 .panel:nth-child(1) {
     background-image:url("./images/earth.jpg");
@@ -274,9 +248,6 @@ body {
     background-size: 100%;
 }
 
-#page5 .panel {
-    margin-bottom: 5rem;
-}
 
 #page6 .panel:nth-child(1) {
     background-image: url("./images/straytx.jpg");
@@ -289,10 +260,6 @@ body {
 #page7 .panel:nth-child(2) {
     background-image: url("https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg");
     background-size: cover;
-}
-
-#page7 .panel {
-    margin-bottom: 5rem;
 }
 
 #page8 .panel:nth-child(1) {
@@ -308,9 +275,6 @@ body {
     background-size: cover;
 }
 
-#page9 .panel {
-    margin-bottom: 5rem;
-}
 
 #page10 .panel:nth-child(1) {
     background-image: url("./images/QuickMerch.PNG");
