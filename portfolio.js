@@ -31,8 +31,8 @@ function loadApp() {
     
     if (window.innerWidth < 1450) {
         $("#flipbook").turn({
-            width: 1100,
-            height: 710,
+            width: 900,
+            height: 585,
             gradients: true,
             autoCenter: true
         });

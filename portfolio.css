@@ -310,20 +310,23 @@ footer {
 
 @media only screen and (max-width: 1440px) {
   .box {
-    left: 11%;
+    left: 20%;
   }
   #page1 .panel {
     margin-bottom: 1rem;
-    }
-    #page5 .panel {
-        margin-bottom: 1rem;
-    }
-    #page7 .panel {
-        margin-bottom: 1rem;
-    }
-    #page9 .panel {
-        margin-bottom: 1rem;
-    }
+  }
+  #page5 .panel {
+      margin-bottom: 1rem;
+  }
+  #page7 .panel {
+      margin-bottom: 1rem;
+  }
+  #page9 .panel {
+      margin-bottom: 1rem;
+  }
+  .portfolio-piece .panel:nth-child(2), .portfolio-piece .panel:nth-child(3) {
+    flex-basis: 0px;
+}
 }
 
 @media only screen and (max-width: 1024px)  {
