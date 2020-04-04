@@ -38,6 +38,6 @@ yepnope({
 $("#scrollArrow").on("click", function () {
     $('html, body').stop().animate({
         scrollTop: $("#myNav").offset().top
-    }, 4000);
+    }, 1000);
     return;
 });
