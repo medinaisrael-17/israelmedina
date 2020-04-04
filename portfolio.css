@@ -19,7 +19,6 @@
 
 body {
     position: relative;
-    overflow-y: hidden;
 }
 
 /* Navbar */
@@ -296,6 +295,7 @@ body {
 /* Footer */
 
 footer {
+    margin-top: 5em;
     width: 100%;
     position: fixed;
     bottom: 0;
