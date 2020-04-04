@@ -325,7 +325,7 @@ footer {
       margin-bottom: 1rem;
   }
   .portfolio-piece .panel:nth-child(2), .portfolio-piece .panel:nth-child(3) {
-    flex-basis: 0px;
+    flex-basis: 200px;
 }
 }
 
