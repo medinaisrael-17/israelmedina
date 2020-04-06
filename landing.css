@@ -191,6 +191,33 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1400px) {
+    #hero-content h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 1247px) {
+    #hero-content h1 {
+        font-size: 72px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    #surfer {
+        height: 25%;
+    }
+    #thanos {
+        height: 48%;
+    }
+}
+
+@media only screen and (max-width: 1121px) {
+    #hero-content h1 {
+        font-size: 65px;
+    }
+}
+
 @media only screen and (max-width: 1024px)  {
     body {
         overflow-x: hidden;
@@ -211,6 +238,42 @@ footer {
     }
     #nav {
         left: 40%;
+    }
+}
+
+@media only screen and (max-width: 1012px) {
+    #hero-content h1 {
+        font-size: 60px;
+    }
+    #hero-content p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1012px) {
+    #hero-content h1 {
+        font-size: 55px;
+    }
+    #hero-content p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 897px) {
+    #thanos {
+        height: 32%;
+    }
+    #surfer {
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 856px) {
+    #hero-content h1 {
+        font-size: 50px;
+    }
+    #hero-content p {
+        font-size: 15px;
     }
 }
 
@@ -243,6 +306,15 @@ footer {
         height: 8em;
         padding: 5px;
         padding-top: 2em;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #thanos {
+        display: none;
+    }
+    #surfer {
+        display: none;
     }
 }
 
