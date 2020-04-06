@@ -267,6 +267,12 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1662px) {
+    .floating-image {
+        height: 21em !important;
+    }
+}
+
 @media only screen and (max-width: 1440px) {
     .container {
         width: 45em;
@@ -291,6 +297,12 @@ footer {
     }
     .skill-img {
         height: 5em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .floating-image {
+        height: 15em !important;
     }
 }
 
