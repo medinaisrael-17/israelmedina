@@ -252,6 +252,21 @@ footer {
 
 /* media queries */
 
+@media only screen and (max-width: 2560px) {
+    #img-div a {
+        height: 4em;
+    }
+    .skill-img {
+        height: 7em;
+    }
+}
+
+@media only screen and (max-width: 1874px) {
+    .skill-img {
+        height: 6em;
+    }
+}
+
 @media only screen and (max-width: 1440px) {
     .container {
         width: 45em;
@@ -267,6 +282,15 @@ footer {
     }
     #skills-div {
         width: 39%;
+    }
+}
+
+@media only screen and (max-width: 1417px) {
+    #img-div a {
+        height: 3em;
+    }
+    .skill-img {
+        height: 5em;
     }
 }
 
