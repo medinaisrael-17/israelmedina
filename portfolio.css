@@ -402,7 +402,7 @@ footer {
         background-size: 100%;
     }
 
-    #flipbook-viewport {
+    #flipbook-viewport, #instructions {
         display: none;
     }
 
