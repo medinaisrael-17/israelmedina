@@ -92,7 +92,7 @@ body {
     position: absolute;
     top: 25%;
     left: 20%;
-    margin-bottom: 10em$;
+    margin-bottom: 10em;
 }
 
 #flipbook {
@@ -278,6 +278,16 @@ body {
 
 #page10 .panel:nth-child(1) {
     background-image: url("./images/QuickMerch.PNG");
+}
+
+#page11 .panel:nth-child(1) {
+    background-image: url('https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+}
+
+#page12 .panel:nth-child(1) {
+    background-image: url('./images/spotify-palette.jpg');
+    background-size: cover;
 }
 
 .page .panel:nth-child(2) {
